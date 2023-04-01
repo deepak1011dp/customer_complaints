@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include customer_complaints *.css
+recursive-include customer_complaints *.csv
+recursive-include customer_complaints *.html
+recursive-include customer_complaints *.ico
+recursive-include customer_complaints *.js
+recursive-include customer_complaints *.json
+recursive-include customer_complaints *.md
+recursive-include customer_complaints *.png
+recursive-include customer_complaints *.py
+recursive-include customer_complaints *.svg
+recursive-include customer_complaints *.txt
+recursive-exclude customer_complaints *.pyc
